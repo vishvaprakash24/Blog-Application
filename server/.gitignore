@@ -1,0 +1,39 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore environment variables files
+.env
+
+# Ignore Python-specific files
+__pycache__/
+*.py[cod]
+
+# Ignore Java-specific files
+*.class
+
+# Ignore compiled source files
+*.out
+*.o
+*.so
+
+# Ignore dependency directories
+vendor/
